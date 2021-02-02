@@ -1,0 +1,44 @@
+.home-view {
+  background-color: #ffffff;
+}
+
+.mobile-data-list {
+  margin: 2em auto;
+  width: max(30em, 30%);
+  text-align: center;
+  background-color: whitesmoke;
+  background-blend-mode: darken;
+  border-radius: 10px;
+}
+
+.mobile-data-list .list-container {
+  padding: 0.5em 0;
+}
+
+.mobile-data-list-header {
+  font-size: 2em;
+  background-color: orange;
+  font-weight: 500;
+  padding: 0.5em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.mobile-data-list-card {
+  background-color: white;
+  box-shadow: 2px 2px rgba(1, 1, 1, 0.4);
+  margin: 0.5em auto;
+  padding: 0.5em 0;
+  border-radius: 5px;
+  font-size: 1.5em;
+  width: 90%;
+}
+
+.mobile-data-list-card:hover {
+  transform: translate(3px, -3px);
+}
+
+.mobile-data-list-card + .decline {
+  background-color: rgba(255, 0, 0, 0.6);
+  box-shadow: 2px 2px blueviolet;
+}
